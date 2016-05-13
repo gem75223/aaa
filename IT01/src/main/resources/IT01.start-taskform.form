@@ -1,0 +1,72 @@
+
+<form id="373881622">
+<property name="subject" value=""/>
+<property name="name" value="IT01.start-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="form_reject" type="InputText" id="574946223">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reject (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/reject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="form_stage2" type="InputText" id="2134507424">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage2 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/stage2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="form_stage3" type="InputText" id="924289363">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage3 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/stage3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="form_stage1" type="InputText" id="1639878176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage1 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/stage1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="form_send" type="InputText" id="1875512858">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;send (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/send"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="form_complete" type="InputText" id="1366806517">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complete (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/complete"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="form_stage4" type="InputText" id="379061006">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage4 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/stage4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="form_isdeptmgr" type="InputText" id="1042971553">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isdeptmgr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="form/isdeptmgr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="form" value="esunbank.com.tw.it01.form" id="form"/>
+</form>
