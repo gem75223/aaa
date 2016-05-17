@@ -9,10 +9,25 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(value = 0)
+    @org.kie.api.definition.type.Position(0)
 	private java.lang.String stage1;
-	@org.kie.api.definition.type.Position(value = 1)
+	@org.kie.api.definition.type.Position(1)
 	private java.lang.String stage2;
+
+	@org.kie.api.definition.type.Position(value = 2)
+	private java.lang.String stage3;
+
+	@org.kie.api.definition.type.Position(value = 3)
+	private java.lang.String stage4;
+
+	@org.kie.api.definition.type.Position(value = 4)
+	private java.lang.String stage5;
+
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.String stage6;
+
+	@org.kie.api.definition.type.Position(value = 6)
+	private java.lang.String stage7;
 
 	public java.lang.String getStage1() {
 		return this.stage1;
@@ -30,12 +45,60 @@ public class form implements java.io.Serializable {
 		this.stage2 = stage2;
 	}
 
+	public java.lang.String getStage3() {
+		return this.stage3;
+	}
+
+	public void setStage3(java.lang.String stage3) {
+		this.stage3 = stage3;
+	}
+
+	public java.lang.String getStage4() {
+		return this.stage4;
+	}
+
+	public void setStage4(java.lang.String stage4) {
+		this.stage4 = stage4;
+	}
+
+	public java.lang.String getStage5() {
+		return this.stage5;
+	}
+
+	public void setStage5(java.lang.String stage5) {
+		this.stage5 = stage5;
+	}
+
+	public java.lang.String getStage6() {
+		return this.stage6;
+	}
+
+	public void setStage6(java.lang.String stage6) {
+		this.stage6 = stage6;
+	}
+
+	public java.lang.String getStage7() {
+		return this.stage7;
+	}
+
+	public void setStage7(java.lang.String stage7) {
+		this.stage7 = stage7;
+	}
+
 	public form() {
 	}
 
-	public form(java.lang.String stage1, java.lang.String stage2) {
+	public form(java.lang.String stage1, java.lang.String stage2,
+			java.lang.String stage3, java.lang.String stage4,
+			java.lang.String stage5, java.lang.String stage6,
+			java.lang.String stage7) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
+		this.stage3 = stage3;
+		this.stage4 = stage4;
+		this.stage5 = stage5;
+		this.stage6 = stage6;
+		this.stage7 = stage7;
 	}
 
 }
