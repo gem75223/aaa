@@ -14,20 +14,26 @@ public class form implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(1)
 	private java.lang.String stage2;
 
-	@org.kie.api.definition.type.Position(value = 2)
+	@org.kie.api.definition.type.Position(2)
 	private java.lang.String stage3;
 
-	@org.kie.api.definition.type.Position(value = 3)
+	@org.kie.api.definition.type.Position(3)
 	private java.lang.String stage4;
 
-	@org.kie.api.definition.type.Position(value = 4)
+	@org.kie.api.definition.type.Position(4)
 	private java.lang.String stage5;
 
-	@org.kie.api.definition.type.Position(value = 5)
+	@org.kie.api.definition.type.Position(5)
 	private java.lang.String stage6;
 
-	@org.kie.api.definition.type.Position(value = 6)
+	@org.kie.api.definition.type.Position(6)
 	private java.lang.String stage7;
+
+	@org.kie.api.definition.type.Position(value = 7)
+	private java.lang.String send;
+
+	@org.kie.api.definition.type.Position(value = 8)
+	private java.lang.String reject;
 
 	public java.lang.String getStage1() {
 		return this.stage1;
@@ -85,13 +91,30 @@ public class form implements java.io.Serializable {
 		this.stage7 = stage7;
 	}
 
+	public java.lang.String getSend() {
+		return this.send;
+	}
+
+	public void setSend(java.lang.String send) {
+		this.send = send;
+	}
+
+	public java.lang.String getReject() {
+		return this.reject;
+	}
+
+	public void setReject(java.lang.String reject) {
+		this.reject = reject;
+	}
+
 	public form() {
 	}
 
 	public form(java.lang.String stage1, java.lang.String stage2,
 			java.lang.String stage3, java.lang.String stage4,
 			java.lang.String stage5, java.lang.String stage6,
-			java.lang.String stage7) {
+			java.lang.String stage7, java.lang.String send,
+			java.lang.String reject) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -99,6 +122,8 @@ public class form implements java.io.Serializable {
 		this.stage5 = stage5;
 		this.stage6 = stage6;
 		this.stage7 = stage7;
+		this.send = send;
+		this.reject = reject;
 	}
 
 }
