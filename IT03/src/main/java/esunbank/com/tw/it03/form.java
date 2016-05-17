@@ -9,33 +9,21 @@ public class form implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     @org.kie.api.definition.type.Position(value = 0)
-    private java.lang.String stage1;
+	private java.lang.String stage2;
 
-    @org.kie.api.definition.type.Position(value = 1)
-    private java.lang.String stage2;
+	public java.lang.String getStage2() {
+		return this.stage2;
+	}
 
-    public form() {
-    }
-    
-    public form(java.lang.String stage1, java.lang.String stage2) {
-        this.stage1 = stage1;
-        this.stage2 = stage2;
-    }
+	public void setStage2(java.lang.String stage2) {
+		this.stage2 = stage2;
+	}
 
-    public java.lang.String getStage1() {
-        return this.stage1;
-    }
-    
-    public void setStage1(java.lang.String stage1) {
-        this.stage1 = stage1;
-    }
+	public form() {
+	}
 
-    public java.lang.String getStage2() {
-        return this.stage2;
-    }
-    
-    public void setStage2(java.lang.String stage2) {
-        this.stage2 = stage2;
-    }
+	public form(java.lang.String stage2) {
+		this.stage2 = stage2;
+	}
 
 }
