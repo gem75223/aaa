@@ -36,7 +36,7 @@ public class form implements java.io.Serializable {
 	private java.lang.String reject;
 
 	@org.kie.api.definition.type.Position(value = 9)
-	private java.lang.String compete;
+	private java.lang.String complete;
 
 	public java.lang.String getStage1() {
 		return this.stage1;
@@ -110,12 +110,12 @@ public class form implements java.io.Serializable {
 		this.reject = reject;
 	}
 
-	public java.lang.String getCompete() {
-		return this.compete;
+	public java.lang.String getComplete() {
+		return this.complete;
 	}
 
-	public void setCompete(java.lang.String compete) {
-		this.compete = compete;
+	public void setComplete(java.lang.String complete) {
+		this.complete = complete;
 	}
 
 	public form() {
@@ -125,7 +125,7 @@ public class form implements java.io.Serializable {
 			java.lang.String stage3, java.lang.String stage4,
 			java.lang.String stage5, java.lang.String stage6,
 			java.lang.String stage7, java.lang.String send,
-			java.lang.String reject, java.lang.String compete) {
+			java.lang.String reject, java.lang.String complete) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -135,7 +135,7 @@ public class form implements java.io.Serializable {
 		this.stage7 = stage7;
 		this.send = send;
 		this.reject = reject;
-		this.compete = compete;
+		this.complete = complete;
 	}
 
 }
