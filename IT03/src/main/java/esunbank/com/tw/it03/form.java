@@ -53,20 +53,26 @@ public class form implements java.io.Serializable {
     @org.kie.api.definition.type.Position(8)
 	private java.lang.String stage9;
 
-    @org.kie.api.definition.type.Position(value = 15)
+    @org.kie.api.definition.type.Position(15)
 	private java.lang.String reply;
 
-	@org.kie.api.definition.type.Position(value = 16)
+	@org.kie.api.definition.type.Position(16)
 	private java.lang.String change;
 
-	@org.kie.api.definition.type.Position(value = 17)
+	@org.kie.api.definition.type.Position(17)
 	private java.lang.String hostsr;
 
-	@org.kie.api.definition.type.Position(value = 18)
+	@org.kie.api.definition.type.Position(18)
 	private java.lang.String assign;
 
-	@org.kie.api.definition.type.Position(value = 19)
+	@org.kie.api.definition.type.Position(19)
 	private java.lang.String othermgr;
+
+	@org.kie.api.definition.type.Position(value = 20)
+	private java.lang.String stage10;
+
+	@org.kie.api.definition.type.Position(value = 21)
+	private java.lang.String stage11;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -228,6 +234,22 @@ public class form implements java.io.Serializable {
 		this.othermgr = othermgr;
 	}
 
+	public java.lang.String getStage10() {
+		return this.stage10;
+	}
+
+	public void setStage10(java.lang.String stage10) {
+		this.stage10 = stage10;
+	}
+
+	public java.lang.String getStage11() {
+		return this.stage11;
+	}
+
+	public void setStage11(java.lang.String stage11) {
+		this.stage11 = stage11;
+	}
+
 	public form() {
 	}
 
@@ -240,7 +262,8 @@ public class form implements java.io.Serializable {
 			java.lang.String iscitrix, java.lang.String ismgr,
 			java.lang.String isgeneral, java.lang.String reply,
 			java.lang.String change, java.lang.String hostsr,
-			java.lang.String assign, java.lang.String othermgr) {
+			java.lang.String assign, java.lang.String othermgr,
+			java.lang.String stage10, java.lang.String stage11) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -261,6 +284,8 @@ public class form implements java.io.Serializable {
 		this.hostsr = hostsr;
 		this.assign = assign;
 		this.othermgr = othermgr;
+		this.stage10 = stage10;
+		this.stage11 = stage11;
 	}
 
 }
