@@ -1,0 +1,184 @@
+
+<form id="1975982097">
+<property name="subject" value=""/>
+<property name="name" value="stage4-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="12" name="form_stage10" type="InputText" id="975205728">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage10 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage10"/>
+<property name="outputBinding" value="taskform/stage10"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="form_othermgr" type="InputText" id="2110863773">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;othermgr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/othermgr"/>
+<property name="outputBinding" value="taskform/othermgr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="form_change" type="InputText" id="1902152314">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;change (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/change"/>
+<property name="outputBinding" value="taskform/change"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="form_stage9" type="InputText" id="1275369922">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage9 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage9"/>
+<property name="outputBinding" value="taskform/stage9"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="form_assign" type="InputText" id="125046158">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assign (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/assign"/>
+<property name="outputBinding" value="taskform/assign"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="form_isgeneral" type="InputText" id="1093351542">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isgeneral (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/isgeneral"/>
+<property name="outputBinding" value="taskform/isgeneral"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="form_stage8" type="InputText" id="1987233662">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage8 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage8"/>
+<property name="outputBinding" value="taskform/stage8"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="form_reply" type="InputText" id="1094806925">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reply (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/reply"/>
+<property name="outputBinding" value="taskform/reply"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="form_hostsr" type="InputText" id="1912914520">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hostsr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/hostsr"/>
+<property name="outputBinding" value="taskform/hostsr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="form_ismgr" type="InputText" id="679874741">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ismgr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/ismgr"/>
+<property name="outputBinding" value="taskform/ismgr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="form_complete" type="InputText" id="13478573">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complete (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/complete"/>
+<property name="outputBinding" value="taskform/complete"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="form_stage7" type="InputText" id="1161648523">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage7 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage7"/>
+<property name="outputBinding" value="taskform/stage7"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="form_stage2" type="InputText" id="1021391586">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage2 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage2"/>
+<property name="outputBinding" value="taskform/stage2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="form_reject" type="InputText" id="992869348">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reject (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/reject"/>
+<property name="outputBinding" value="taskform/reject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="form_stage1" type="InputText" id="286487468">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage1 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage1"/>
+<property name="outputBinding" value="taskform/stage1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="form_stage6" type="InputText" id="895439414">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage6 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage6"/>
+<property name="outputBinding" value="taskform/stage6"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="form_iscitrix" type="InputText" id="876668919">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;iscitrix (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/iscitrix"/>
+<property name="outputBinding" value="taskform/iscitrix"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="form_stage11" type="InputText" id="323918979">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage11 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage11"/>
+<property name="outputBinding" value="taskform/stage11"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="form_stage5" type="InputText" id="159088649">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage5 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage5"/>
+<property name="outputBinding" value="taskform/stage5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="form_stage4" type="InputText" id="660190489">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage4 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage4"/>
+<property name="outputBinding" value="taskform/stage4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="form_stage3" type="InputText" id="863161459">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stage3 (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/stage3"/>
+<property name="outputBinding" value="taskform/stage3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="form_send" type="InputText" id="1482626765">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;send (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/send"/>
+<property name="outputBinding" value="taskform/send"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="taskform" name="#0000A0" type="dataModelerEntry" outId="taskform" value="esunbank.com.tw.it03.form" id="form"/>
+</form>
