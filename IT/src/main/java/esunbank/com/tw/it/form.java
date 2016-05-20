@@ -8,20 +8,21 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(value = 0)
+    @org.kie.api.definition.type.Position(0)
 	private java.lang.String assign;
-	@org.kie.api.definition.type.Position(value = 1)
+	@org.kie.api.definition.type.Position(1)
 	private java.lang.String change;
-	@org.kie.api.definition.type.Position(value = 2)
+	@org.kie.api.definition.type.Position(2)
 	private java.lang.String send;
-	@org.kie.api.definition.type.Position(value = 3)
+	@org.kie.api.definition.type.Position(3)
 	private java.lang.String reject;
-	@org.kie.api.definition.type.Position(value = 4)
+	@org.kie.api.definition.type.Position(4)
 	private java.lang.String reply;
-	@org.kie.api.definition.type.Position(value = 5)
-	private java.lang.String hostSR;
-	@org.kie.api.definition.type.Position(value = 6)
+	@org.kie.api.definition.type.Position(5)
 	private java.lang.String othermgr;
+
+	@org.kie.api.definition.type.Position(value = 6)
+	private java.lang.String hostsr;
 
 	public java.lang.String getAssign() {
 		return this.assign;
@@ -63,14 +64,6 @@ public class form implements java.io.Serializable {
 		this.reply = reply;
 	}
 
-	public java.lang.String getHostSR() {
-		return this.hostSR;
-	}
-
-	public void setHostSR(java.lang.String hostSR) {
-		this.hostSR = hostSR;
-	}
-
 	public java.lang.String getOthermgr() {
 		return this.othermgr;
 	}
@@ -79,20 +72,28 @@ public class form implements java.io.Serializable {
 		this.othermgr = othermgr;
 	}
 
+	public java.lang.String getHostsr() {
+		return this.hostsr;
+	}
+
+	public void setHostsr(java.lang.String hostsr) {
+		this.hostsr = hostsr;
+	}
+
 	public form() {
 	}
 
 	public form(java.lang.String assign, java.lang.String change,
 			java.lang.String send, java.lang.String reject,
-			java.lang.String reply, java.lang.String hostSR,
-			java.lang.String othermgr) {
+			java.lang.String reply, java.lang.String othermgr,
+			java.lang.String hostsr) {
 		this.assign = assign;
 		this.change = change;
 		this.send = send;
 		this.reject = reject;
 		this.reply = reply;
-		this.hostSR = hostSR;
 		this.othermgr = othermgr;
+		this.hostsr = hostsr;
 	}
 
 }
