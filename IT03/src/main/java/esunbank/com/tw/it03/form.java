@@ -8,73 +8,67 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(value = 11)
-    private java.lang.String complete;
+    @org.kie.api.definition.type.Position(11)
+	private java.lang.String complete;
 
-    @org.kie.api.definition.type.Position(value = 12)
-    private java.lang.String iscitrix;
+    @org.kie.api.definition.type.Position(12)
+	private java.lang.String iscitrix;
 
-    @org.kie.api.definition.type.Position(value = 14)
-    private java.lang.String isgeneral;
+    @org.kie.api.definition.type.Position(14)
+	private java.lang.String isgeneral;
 
-    @org.kie.api.definition.type.Position(value = 13)
-    private java.lang.String ismgr;
+    @org.kie.api.definition.type.Position(13)
+	private java.lang.String ismgr;
 
-    @org.kie.api.definition.type.Position(value = 10)
-    private java.lang.String reject;
+    @org.kie.api.definition.type.Position(10)
+	private java.lang.String reject;
 
-    @org.kie.api.definition.type.Position(value = 9)
-    private java.lang.String send;
+    @org.kie.api.definition.type.Position(9)
+	private java.lang.String send;
 
-    @org.kie.api.definition.type.Position(value = 0)
-    private java.lang.String stage1;
+    @org.kie.api.definition.type.Position(0)
+	private java.lang.String stage1;
 
-    @org.kie.api.definition.type.Position(value = 1)
-    private java.lang.String stage2;
+    @org.kie.api.definition.type.Position(1)
+	private java.lang.String stage2;
 
-    @org.kie.api.definition.type.Position(value = 2)
-    private java.lang.String stage3;
+    @org.kie.api.definition.type.Position(2)
+	private java.lang.String stage3;
 
-    @org.kie.api.definition.type.Position(value = 3)
-    private java.lang.String stage4;
+    @org.kie.api.definition.type.Position(3)
+	private java.lang.String stage4;
 
-    @org.kie.api.definition.type.Position(value = 4)
-    private java.lang.String stage5;
+    @org.kie.api.definition.type.Position(4)
+	private java.lang.String stage5;
 
-    @org.kie.api.definition.type.Position(value = 5)
-    private java.lang.String stage6;
+    @org.kie.api.definition.type.Position(5)
+	private java.lang.String stage6;
 
-    @org.kie.api.definition.type.Position(value = 6)
-    private java.lang.String stage7;
+    @org.kie.api.definition.type.Position(6)
+	private java.lang.String stage7;
 
-    @org.kie.api.definition.type.Position(value = 7)
-    private java.lang.String stage8;
+    @org.kie.api.definition.type.Position(7)
+	private java.lang.String stage8;
 
-    @org.kie.api.definition.type.Position(value = 8)
-    private java.lang.String stage9;
+    @org.kie.api.definition.type.Position(8)
+	private java.lang.String stage9;
 
-    public form() {
-    }
-    
-    public form(java.lang.String stage1, java.lang.String stage2, java.lang.String stage3, java.lang.String stage4, java.lang.String stage5, java.lang.String stage6, java.lang.String stage7, java.lang.String stage8, java.lang.String stage9, java.lang.String send, java.lang.String reject, java.lang.String complete, java.lang.String iscitrix, java.lang.String ismgr, java.lang.String isgeneral) {
-        this.stage1 = stage1;
-        this.stage2 = stage2;
-        this.stage3 = stage3;
-        this.stage4 = stage4;
-        this.stage5 = stage5;
-        this.stage6 = stage6;
-        this.stage7 = stage7;
-        this.stage8 = stage8;
-        this.stage9 = stage9;
-        this.send = send;
-        this.reject = reject;
-        this.complete = complete;
-        this.iscitrix = iscitrix;
-        this.ismgr = ismgr;
-        this.isgeneral = isgeneral;
-    }
+    @org.kie.api.definition.type.Position(value = 15)
+	private java.lang.String reply;
 
-    public java.lang.String getComplete() {
+	@org.kie.api.definition.type.Position(value = 16)
+	private java.lang.String change;
+
+	@org.kie.api.definition.type.Position(value = 17)
+	private java.lang.String hostsr;
+
+	@org.kie.api.definition.type.Position(value = 18)
+	private java.lang.String assign;
+
+	@org.kie.api.definition.type.Position(value = 19)
+	private java.lang.String othermgr;
+
+	public java.lang.String getComplete() {
         return this.complete;
     }
     
@@ -193,5 +187,80 @@ public class form implements java.io.Serializable {
     public void setStage9(java.lang.String stage9) {
         this.stage9 = stage9;
     }
+
+	public java.lang.String getReply() {
+		return this.reply;
+	}
+
+	public void setReply(java.lang.String reply) {
+		this.reply = reply;
+	}
+
+	public java.lang.String getChange() {
+		return this.change;
+	}
+
+	public void setChange(java.lang.String change) {
+		this.change = change;
+	}
+
+	public java.lang.String getHostsr() {
+		return this.hostsr;
+	}
+
+	public void setHostsr(java.lang.String hostsr) {
+		this.hostsr = hostsr;
+	}
+
+	public java.lang.String getAssign() {
+		return this.assign;
+	}
+
+	public void setAssign(java.lang.String assign) {
+		this.assign = assign;
+	}
+
+	public java.lang.String getOthermgr() {
+		return this.othermgr;
+	}
+
+	public void setOthermgr(java.lang.String othermgr) {
+		this.othermgr = othermgr;
+	}
+
+	public form() {
+	}
+
+	public form(java.lang.String stage1, java.lang.String stage2,
+			java.lang.String stage3, java.lang.String stage4,
+			java.lang.String stage5, java.lang.String stage6,
+			java.lang.String stage7, java.lang.String stage8,
+			java.lang.String stage9, java.lang.String send,
+			java.lang.String reject, java.lang.String complete,
+			java.lang.String iscitrix, java.lang.String ismgr,
+			java.lang.String isgeneral, java.lang.String reply,
+			java.lang.String change, java.lang.String hostsr,
+			java.lang.String assign, java.lang.String othermgr) {
+		this.stage1 = stage1;
+		this.stage2 = stage2;
+		this.stage3 = stage3;
+		this.stage4 = stage4;
+		this.stage5 = stage5;
+		this.stage6 = stage6;
+		this.stage7 = stage7;
+		this.stage8 = stage8;
+		this.stage9 = stage9;
+		this.send = send;
+		this.reject = reject;
+		this.complete = complete;
+		this.iscitrix = iscitrix;
+		this.ismgr = ismgr;
+		this.isgeneral = isgeneral;
+		this.reply = reply;
+		this.change = change;
+		this.hostsr = hostsr;
+		this.assign = assign;
+		this.othermgr = othermgr;
+	}
 
 }
