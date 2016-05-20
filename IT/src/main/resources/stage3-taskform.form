@@ -1,0 +1,64 @@
+
+<form id="1703836659">
+<property name="subject" value=""/>
+<property name="name" value="stage3-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="form_othermgr" type="InputText" id="769073784">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;othermgr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/othermgr"/>
+<property name="outputBinding" value="taskform/othermgr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="form_reject" type="InputText" id="791546646">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reject (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/reject"/>
+<property name="outputBinding" value="taskform/reject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="form_assign" type="InputText" id="1793056150">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assign (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/assign"/>
+<property name="outputBinding" value="taskform/assign"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="form_hostsr" type="InputText" id="223384493">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hostsr (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/hostsr"/>
+<property name="outputBinding" value="taskform/hostsr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="form_change" type="InputText" id="1576717450">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;change (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/change"/>
+<property name="outputBinding" value="taskform/change"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="form_send" type="InputText" id="2123443874">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;send (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/send"/>
+<property name="outputBinding" value="taskform/send"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="form_reply" type="InputText" id="88784202">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reply (form)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskform/reply"/>
+<property name="outputBinding" value="taskform/reply"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="taskform" name="#0000A0" type="dataModelerEntry" outId="taskform" value="esunbank.com.tw.it.form" id="form"/>
+</form>
