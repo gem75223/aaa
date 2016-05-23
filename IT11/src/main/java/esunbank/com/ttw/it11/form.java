@@ -8,37 +8,28 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(value = 5)
-    private java.lang.String reject;
+    @org.kie.api.definition.type.Position(5)
+	private java.lang.String reject;
 
-    @org.kie.api.definition.type.Position(value = 4)
-    private java.lang.String send;
+    @org.kie.api.definition.type.Position(4)
+	private java.lang.String send;
 
-    @org.kie.api.definition.type.Position(value = 0)
-    private java.lang.String stage1;
+    @org.kie.api.definition.type.Position(0)
+	private java.lang.String stage1;
 
-    @org.kie.api.definition.type.Position(value = 1)
-    private java.lang.String stage2;
+    @org.kie.api.definition.type.Position(1)
+	private java.lang.String stage2;
 
-    @org.kie.api.definition.type.Position(value = 2)
-    private java.lang.String stage3;
+    @org.kie.api.definition.type.Position(2)
+	private java.lang.String stage3;
 
-    @org.kie.api.definition.type.Position(value = 3)
-    private java.lang.String stage4;
+    @org.kie.api.definition.type.Position(3)
+	private java.lang.String stage4;
 
-    public form() {
-    }
-    
-    public form(java.lang.String stage1, java.lang.String stage2, java.lang.String stage3, java.lang.String stage4, java.lang.String send, java.lang.String reject) {
-        this.stage1 = stage1;
-        this.stage2 = stage2;
-        this.stage3 = stage3;
-        this.stage4 = stage4;
-        this.send = send;
-        this.reject = reject;
-    }
+    @org.kie.api.definition.type.Position(value = 6)
+	private java.lang.String complete;
 
-    public java.lang.String getReject() {
+	public java.lang.String getReject() {
         return this.reject;
     }
     
@@ -85,5 +76,29 @@ public class form implements java.io.Serializable {
     public void setStage4(java.lang.String stage4) {
         this.stage4 = stage4;
     }
+
+	public java.lang.String getComplete() {
+		return this.complete;
+	}
+
+	public void setComplete(java.lang.String complete) {
+		this.complete = complete;
+	}
+
+	public form() {
+	}
+
+	public form(java.lang.String stage1, java.lang.String stage2,
+			java.lang.String stage3, java.lang.String stage4,
+			java.lang.String send, java.lang.String reject,
+			java.lang.String complete) {
+		this.stage1 = stage1;
+		this.stage2 = stage2;
+		this.stage3 = stage3;
+		this.stage4 = stage4;
+		this.send = send;
+		this.reject = reject;
+		this.complete = complete;
+	}
 
 }
