@@ -8,29 +8,22 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(value = 3)
-    private java.lang.String complete;
+    @org.kie.api.definition.type.Position(3)
+	private java.lang.String complete;
 
-    @org.kie.api.definition.type.Position(value = 1)
-    private java.lang.String reject;
+    @org.kie.api.definition.type.Position(1)
+	private java.lang.String reject;
 
-    @org.kie.api.definition.type.Position(value = 2)
-    private java.lang.String send;
+    @org.kie.api.definition.type.Position(2)
+	private java.lang.String send;
 
-    @org.kie.api.definition.type.Position(value = 0)
-    private java.lang.String stage1;
+    @org.kie.api.definition.type.Position(0)
+	private java.lang.String stage1;
 
-    public form() {
-    }
-    
-    public form(java.lang.String stage1, java.lang.String reject, java.lang.String send, java.lang.String complete) {
-        this.stage1 = stage1;
-        this.reject = reject;
-        this.send = send;
-        this.complete = complete;
-    }
+    @org.kie.api.definition.type.Position(value = 4)
+	private java.lang.String reply;
 
-    public java.lang.String getComplete() {
+	public java.lang.String getComplete() {
         return this.complete;
     }
     
@@ -61,5 +54,26 @@ public class form implements java.io.Serializable {
     public void setStage1(java.lang.String stage1) {
         this.stage1 = stage1;
     }
+
+	public java.lang.String getReply() {
+		return this.reply;
+	}
+
+	public void setReply(java.lang.String reply) {
+		this.reply = reply;
+	}
+
+	public form() {
+	}
+
+	public form(java.lang.String stage1, java.lang.String reject,
+			java.lang.String send, java.lang.String complete,
+			java.lang.String reply) {
+		this.stage1 = stage1;
+		this.reject = reject;
+		this.send = send;
+		this.complete = complete;
+		this.reply = reply;
+	}
 
 }
