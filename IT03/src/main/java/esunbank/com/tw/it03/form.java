@@ -68,11 +68,14 @@ public class form implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(19)
 	private java.lang.String othermgr;
 
-	@org.kie.api.definition.type.Position(value = 20)
+	@org.kie.api.definition.type.Position(20)
 	private java.lang.String stage10;
 
-	@org.kie.api.definition.type.Position(value = 21)
+	@org.kie.api.definition.type.Position(21)
 	private java.lang.String stage11;
+
+	@org.kie.api.definition.type.Position(value = 22)
+	private java.lang.String isthesame;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -250,6 +253,14 @@ public class form implements java.io.Serializable {
 		this.stage11 = stage11;
 	}
 
+	public java.lang.String getIsthesame() {
+		return this.isthesame;
+	}
+
+	public void setIsthesame(java.lang.String isthesame) {
+		this.isthesame = isthesame;
+	}
+
 	public form() {
 	}
 
@@ -263,7 +274,8 @@ public class form implements java.io.Serializable {
 			java.lang.String isgeneral, java.lang.String reply,
 			java.lang.String change, java.lang.String hostsr,
 			java.lang.String assign, java.lang.String othermgr,
-			java.lang.String stage10, java.lang.String stage11) {
+			java.lang.String stage10, java.lang.String stage11,
+			java.lang.String isthesame) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -286,6 +298,7 @@ public class form implements java.io.Serializable {
 		this.othermgr = othermgr;
 		this.stage10 = stage10;
 		this.stage11 = stage11;
+		this.isthesame = isthesame;
 	}
 
 }
