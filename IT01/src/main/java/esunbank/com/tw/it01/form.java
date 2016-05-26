@@ -8,45 +8,28 @@ public class form implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(2)
-	private java.lang.String complete;
-
     @org.kie.api.definition.type.Position(1)
 	private java.lang.String reject;
 
     @org.kie.api.definition.type.Position(0)
 	private java.lang.String send;
 
-    @org.kie.api.definition.type.Position(3)
+    @org.kie.api.definition.type.Position(2)
 	private java.lang.String stage1;
 
-    @org.kie.api.definition.type.Position(4)
+    @org.kie.api.definition.type.Position(3)
 	private java.lang.String stage2;
 
-    @org.kie.api.definition.type.Position(5)
+    @org.kie.api.definition.type.Position(4)
 	private java.lang.String stage3;
 
-    @org.kie.api.definition.type.Position(6)
+    @org.kie.api.definition.type.Position(5)
 	private java.lang.String stage4;
 
-    @org.kie.api.definition.type.Position(7)
-	private java.lang.String isdeptmgr;
-
-	@org.kie.api.definition.type.Position(8)
-	private java.lang.String back;
-
-	@org.kie.api.definition.type.Position(value = 9)
+    @org.kie.api.definition.type.Position(6)
 	private java.lang.String isreplyer;
 
-	public java.lang.String getComplete() {
-        return this.complete;
-    }
-    
-    public void setComplete(java.lang.String complete) {
-        this.complete = complete;
-    }
-
-    public java.lang.String getReject() {
+	public java.lang.String getReject() {
         return this.reject;
     }
     
@@ -94,22 +77,6 @@ public class form implements java.io.Serializable {
         this.stage4 = stage4;
     }
 
-	public java.lang.String getIsdeptmgr() {
-		return this.isdeptmgr;
-	}
-
-	public void setIsdeptmgr(java.lang.String isdeptmgr) {
-		this.isdeptmgr = isdeptmgr;
-	}
-
-	public java.lang.String getBack() {
-		return this.back;
-	}
-
-	public void setBack(java.lang.String back) {
-		this.back = back;
-	}
-
 	public java.lang.String getIsreplyer() {
 		return this.isreplyer;
 	}
@@ -122,19 +89,15 @@ public class form implements java.io.Serializable {
 	}
 
 	public form(java.lang.String send, java.lang.String reject,
-			java.lang.String complete, java.lang.String stage1,
-			java.lang.String stage2, java.lang.String stage3,
-			java.lang.String stage4, java.lang.String isdeptmgr,
-			java.lang.String back, java.lang.String isreplyer) {
+			java.lang.String stage1, java.lang.String stage2,
+			java.lang.String stage3, java.lang.String stage4,
+			java.lang.String isreplyer) {
 		this.send = send;
 		this.reject = reject;
-		this.complete = complete;
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
 		this.stage4 = stage4;
-		this.isdeptmgr = isdeptmgr;
-		this.back = back;
 		this.isreplyer = isreplyer;
 	}
 
