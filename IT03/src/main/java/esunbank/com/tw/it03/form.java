@@ -77,8 +77,20 @@ public class form implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(22)
 	private java.lang.String isthesame;
 
-	@org.kie.api.definition.type.Position(value = 23)
+	@org.kie.api.definition.type.Position(23)
 	private java.util.List<esunbank.com.tw.it03.stage> stagelist;
+
+	@org.kie.api.definition.type.Position(value = 24)
+	private java.util.List<esunbank.com.tw.it03.stage1> stage1list;
+
+	@org.kie.api.definition.type.Position(value = 25)
+	private java.util.List<esunbank.com.tw.it03.stage2> stage2list;
+
+	@org.kie.api.definition.type.Position(value = 26)
+	private java.util.List<esunbank.com.tw.it03.stage3> stage3list;
+
+	@org.kie.api.definition.type.Position(value = 27)
+	private java.util.List<esunbank.com.tw.it03.stage4> stage4list;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -273,6 +285,42 @@ public class form implements java.io.Serializable {
 		this.stagelist = stagelist;
 	}
 
+	public java.util.List<esunbank.com.tw.it03.stage1> getStage1list() {
+		return this.stage1list;
+	}
+
+	public void setStage1list(
+			java.util.List<esunbank.com.tw.it03.stage1> stage1list) {
+		this.stage1list = stage1list;
+	}
+
+	public java.util.List<esunbank.com.tw.it03.stage2> getStage2list() {
+		return this.stage2list;
+	}
+
+	public void setStage2list(
+			java.util.List<esunbank.com.tw.it03.stage2> stage2list) {
+		this.stage2list = stage2list;
+	}
+
+	public java.util.List<esunbank.com.tw.it03.stage3> getStage3list() {
+		return this.stage3list;
+	}
+
+	public void setStage3list(
+			java.util.List<esunbank.com.tw.it03.stage3> stage3list) {
+		this.stage3list = stage3list;
+	}
+
+	public java.util.List<esunbank.com.tw.it03.stage4> getStage4list() {
+		return this.stage4list;
+	}
+
+	public void setStage4list(
+			java.util.List<esunbank.com.tw.it03.stage4> stage4list) {
+		this.stage4list = stage4list;
+	}
+
 	public form() {
 	}
 
@@ -288,7 +336,11 @@ public class form implements java.io.Serializable {
 			java.lang.String assign, java.lang.String othermgr,
 			java.lang.String stage10, java.lang.String stage11,
 			java.lang.String isthesame,
-			java.util.List<esunbank.com.tw.it03.stage> stagelist) {
+			java.util.List<esunbank.com.tw.it03.stage> stagelist,
+			java.util.List<esunbank.com.tw.it03.stage1> stage1list,
+			java.util.List<esunbank.com.tw.it03.stage2> stage2list,
+			java.util.List<esunbank.com.tw.it03.stage3> stage3list,
+			java.util.List<esunbank.com.tw.it03.stage4> stage4list) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -313,6 +365,10 @@ public class form implements java.io.Serializable {
 		this.stage11 = stage11;
 		this.isthesame = isthesame;
 		this.stagelist = stagelist;
+		this.stage1list = stage1list;
+		this.stage2list = stage2list;
+		this.stage3list = stage3list;
+		this.stage4list = stage4list;
 	}
 
 }
