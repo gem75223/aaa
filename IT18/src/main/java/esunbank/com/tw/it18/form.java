@@ -20,8 +20,14 @@ public class form implements java.io.Serializable {
     @org.kie.api.definition.type.Position(0)
 	private java.lang.String stage1;
 
-    @org.kie.api.definition.type.Position(value = 4)
+    @org.kie.api.definition.type.Position(4)
 	private java.lang.String reply;
+
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.String isthesame;
+
+	@org.kie.api.definition.type.Position(value = 6)
+	private java.lang.String stage2;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -63,17 +69,36 @@ public class form implements java.io.Serializable {
 		this.reply = reply;
 	}
 
+	public java.lang.String getIsthesame() {
+		return this.isthesame;
+	}
+
+	public void setIsthesame(java.lang.String isthesame) {
+		this.isthesame = isthesame;
+	}
+
+	public java.lang.String getStage2() {
+		return this.stage2;
+	}
+
+	public void setStage2(java.lang.String stage2) {
+		this.stage2 = stage2;
+	}
+
 	public form() {
 	}
 
 	public form(java.lang.String stage1, java.lang.String reject,
 			java.lang.String send, java.lang.String complete,
-			java.lang.String reply) {
+			java.lang.String reply, java.lang.String isthesame,
+			java.lang.String stage2) {
 		this.stage1 = stage1;
 		this.reject = reject;
 		this.send = send;
 		this.complete = complete;
 		this.reply = reply;
+		this.isthesame = isthesame;
+		this.stage2 = stage2;
 	}
 
 }
