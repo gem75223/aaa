@@ -92,8 +92,11 @@ public class form implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(27)
 	private java.util.List<esunbank.com.tw.it03.stage4> stage4list;
 
-	@org.kie.api.definition.type.Position(value = 28)
+	@org.kie.api.definition.type.Position(28)
 	private java.lang.String stage13;
+
+	@org.kie.api.definition.type.Position(value = 29)
+	private java.lang.String stage14;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -332,6 +335,14 @@ public class form implements java.io.Serializable {
 		this.stage13 = stage13;
 	}
 
+	public java.lang.String getStage14() {
+		return this.stage14;
+	}
+
+	public void setStage14(java.lang.String stage14) {
+		this.stage14 = stage14;
+	}
+
 	public form() {
 	}
 
@@ -352,7 +363,7 @@ public class form implements java.io.Serializable {
 			java.util.List<esunbank.com.tw.it03.stage2> stage2list,
 			java.util.List<esunbank.com.tw.it03.stage3> stage3list,
 			java.util.List<esunbank.com.tw.it03.stage4> stage4list,
-			java.lang.String stage13) {
+			java.lang.String stage13, java.lang.String stage14) {
 		this.stage1 = stage1;
 		this.stage2 = stage2;
 		this.stage3 = stage3;
@@ -382,6 +393,7 @@ public class form implements java.io.Serializable {
 		this.stage3list = stage3list;
 		this.stage4list = stage4list;
 		this.stage13 = stage13;
+		this.stage14 = stage14;
 	}
 
 }
