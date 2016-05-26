@@ -32,8 +32,11 @@ public class form implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(7)
 	private java.lang.String change;
 
-	@org.kie.api.definition.type.Position(value = 8)
+	@org.kie.api.definition.type.Position(8)
 	private java.lang.String hostsr;
+
+	@org.kie.api.definition.type.Position(value = 9)
+	private java.lang.String assign;
 
 	public java.lang.String getComplete() {
         return this.complete;
@@ -107,6 +110,14 @@ public class form implements java.io.Serializable {
 		this.hostsr = hostsr;
 	}
 
+	public java.lang.String getAssign() {
+		return this.assign;
+	}
+
+	public void setAssign(java.lang.String assign) {
+		this.assign = assign;
+	}
+
 	public form() {
 	}
 
@@ -114,7 +125,7 @@ public class form implements java.io.Serializable {
 			java.lang.String send, java.lang.String complete,
 			java.lang.String reply, java.lang.String isthesame,
 			java.lang.String stage2, java.lang.String change,
-			java.lang.String hostsr) {
+			java.lang.String hostsr, java.lang.String assign) {
 		this.stage1 = stage1;
 		this.reject = reject;
 		this.send = send;
@@ -124,6 +135,7 @@ public class form implements java.io.Serializable {
 		this.stage2 = stage2;
 		this.change = change;
 		this.hostsr = hostsr;
+		this.assign = assign;
 	}
 
 }
