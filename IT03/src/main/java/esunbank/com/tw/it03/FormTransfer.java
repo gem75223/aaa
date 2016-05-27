@@ -56,7 +56,7 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 			 JSONArray jsonArray = json.getJSONArray("stage1list");
 	    
 			 JSONObject tempCSlist  = new JSONObject(parameter);
-			  List<counterSignList> result = new ArrayList<counterSignList>();
+			  List<stage1> result = new ArrayList<stage1>();
 
 
 	            for (int i = 0; i < jsonArray.length(); i++) {
