@@ -27,13 +27,13 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 			form startform =new form();
 			JSONObject json  = new JSONObject(parameter);
 			
-			startform.setIsBUSetting(json.getString("isBUSetting"));
+			startform.setAssign(json.getString("assign"));
 			startform.setSend(json.getString("send"));
-			startform.setCancel(json.getString("cancel"));
+			startform.setChange(json.getString("change"));
 			startform.setReject(json.getString("reject"));
-			startform.setJump(json.getString("jump"));
-			startform.setStationFour(json.getString("stationFour"));
-			startform.setStationSix(json.getString("stationSix"));
+			startform.setComplete(json.getString("complete"));
+			startform.setIscitrix(json.getString("iscitrix"));
+			startform.setIsmgr(json.getString("ismgr"));
 			startform.setCdept(json.getString("cdept"));
 			startform.setAssignOrgPicker(json.getString("assignOrgPicker"));
 			startform.setCancelCompleted(json.getString("cancelCompleted"));
@@ -45,8 +45,7 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 			startform.setStage7(json.getString("stage7"));
 			startform.setApplicant(json.getString("applicant"));
 
-			
-			
+					
 			
 			
 			
@@ -54,7 +53,7 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 
 //////-------------------------
 			
-			 JSONArray jsonArray = json.getJSONArray("stage");
+			 JSONArray jsonArray = json.getJSONArray("stage1list");
 	    
 			 JSONObject tempCSlist  = new JSONObject(parameter);
 			  List<counterSignList> result = new ArrayList<counterSignList>();
@@ -62,10 +61,10 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 
 	            for (int i = 0; i < jsonArray.length(); i++) {
 	    
-	            	counterSignList stageTemp = new counterSignList();
+	            	stage1 stageTemp = new stage1();
 //	                 stageTemp.setSigner(jsonArray.getString(i)) ;
 	            	tempCSlist=new JSONObject(jsonArray.getString(i));
-	                 stageTemp.setStage8(tempCSlist.getString("stage8"));
+	                 stageTemp.User(tempCSlist.getString("user"));
 	           
 //	                 System.out.println(stageTemp.getSigner());
 	                 
@@ -74,7 +73,7 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 	               
 	            }
 	            
-	            startform.setCSList(result);  
+	            startform.setStage1list(result);  
 	           
 		
 			return startform;
