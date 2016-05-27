@@ -9,21 +9,21 @@ public class stage1 implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     @org.kie.api.definition.type.Position(value = 0)
-    private java.lang.String stage1;
+	private java.lang.String user;
 
-    public stage1() {
-    }
-    
-    public stage1(java.lang.String stage1) {
-        this.stage1 = stage1;
-    }
+	public java.lang.String getUser() {
+		return this.user;
+	}
 
-    public java.lang.String getStage1() {
-        return this.stage1;
-    }
-    
-    public void setStage1(java.lang.String stage1) {
-        this.stage1 = stage1;
-    }
+	public void setUser(java.lang.String user) {
+		this.user = user;
+	}
+
+	public stage1() {
+	}
+
+	public stage1(java.lang.String user) {
+		this.user = user;
+	}
 
 }
