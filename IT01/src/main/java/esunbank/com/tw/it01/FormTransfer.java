@@ -20,7 +20,7 @@ public class FormTransfer implements java.io.Serializable {
 
 	}
 
-	public static it01Form formTransfer(String parameter) throws Exception {
+	public static form formTransfer(String parameter) throws Exception {
 
 		form startform = new form();
 		JSONObject json = new JSONObject(parameter);
