@@ -86,12 +86,12 @@ public class FormTransfer implements java.io.Serializable {
 
 		            for (int i = 0; i < jsonArray1.length(); i++) {
 		    
-		            	stage1 stageTemp = new stage1();
+		            	stage1 stageTemp1 = new stage1();
 //		                stageTemp.setSigner(jsonArray.getString(i)) ;
 		            	tempCSlist1=new JSONObject(jsonArray1.getString(i));
-		                stageTemp.setUser(tempCSlist1.getString("user"));
+		                stageTemp1.setUser(tempCSlist1.getString("user"));
 //		                System.out.println(stageTemp.getSigner());
-		                result1.add(stageTemp);
+		                result1.add(stageTemp1);
 		            }
 		            
 		            startform.setStage1list(result1);     
@@ -101,14 +101,14 @@ public class FormTransfer implements java.io.Serializable {
 			    	JSONObject tempCSlist2  = new JSONObject(parameter);
 					List<stage2> result2 = new ArrayList<stage2>();
 
-			            for (int i = 0; i < jsonArray.length(); i++) {
+			            for (int i = 0; i < jsonArray2.length(); i++) {
 			    
-			            	stage2 stageTemp = new stage2();
+			            	stage2 stageTemp2 = new stage2();
 //			                stageTemp.setSigner(jsonArray.getString(i)) ;
-			            	tempCSlist=new JSONObject(jsonArray2.getString(i));
-			                stageTemp.setStage2(tempCSlist.getString("stage2"));
+			            	tempCSlist2=new JSONObject(jsonArray2.getString(i));
+			                stageTemp2.setStage2(tempCSlist2.getString("stage2"));
 //			                System.out.println(stageTemp.getSigner());
-			                result2.add(stageTemp);
+			                result2.add(stageTemp2);
 			            }
 			            
 			            startform.setStage2list(result2); 	            
@@ -118,14 +118,14 @@ public class FormTransfer implements java.io.Serializable {
 				    JSONObject tempCSlist3  = new JSONObject(parameter);
 					List<stage3> result3 = new ArrayList<stage3>();
 
-				    	for (int i = 0; i < jsonArray.length(); i++) {
+				    	for (int i = 0; i < jsonArray3.length(); i++) {
 
-			            	stage3 stageTemp = new stage3();
+			            	stage3 stageTemp3 = new stage3();
 //			                stageTemp.setSigner(jsonArray.getString(i)) ;
 			            	tempCSlist3=new JSONObject(jsonArray3.getString(i));
-			                stageTemp.setStage3(tempCSlist3.getString("stage3"));
+			                stageTemp3.setStage3(tempCSlist3.getString("stage3"));
 //			                System.out.println(stageTemp.getSigner());
-			                result3.add(stageTemp);
+			                result3.add(stageTemp3);
 				        }
 				            
 				            startform.setStage3list(result3); 	            
@@ -136,14 +136,14 @@ public class FormTransfer implements java.io.Serializable {
 					JSONObject tempCSlist4  = new JSONObject(parameter);
 					List<stage4> result4 = new ArrayList<stage4>();
 
-						for (int i = 0; i < jsonArray.length(); i++) {
+						for (int i = 0; i < jsonArray4.length(); i++) {
 
-							stage4 stageTemp = new stage4();
+							stage4 stageTemp4 = new stage4();
 //					        stageTemp.setSigner(jsonArray.getString(i)) ;
 					        tempCSlist4=new JSONObject(jsonArray4.getString(i));
-					        stageTemp.setStage4(tempCSlist4.getString("stage4"));
+					        stageTemp4.setStage4(tempCSlist4.getString("stage4"));
 //					        System.out.println(stageTemp.getSigner());
-					        result4.add(stageTemp);
+					        result4.add(stageTemp4);
 						}
 						            
 							startform.setStage4list(result4); 	
