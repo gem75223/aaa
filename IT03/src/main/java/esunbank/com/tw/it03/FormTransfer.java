@@ -94,7 +94,7 @@ public class FormTransfer implements java.io.Serializable {
 		                result1.add(stageTemp);
 		            }
 		            
-		            startform.setStage1list(result);     
+		            startform.setStage1list(result1);     
 //-------------------------------------------stage2list	            
 	            
 		            JSONArray jsonArray2 = json.getJSONArray("stage2list");
@@ -111,7 +111,7 @@ public class FormTransfer implements java.io.Serializable {
 			                result2.add(stageTemp);
 			            }
 			            
-			            startform.setStage2list(result); 	            
+			            startform.setStage2list(result2); 	            
 //-------------------------------------------stage3list	            
 			            
 			        JSONArray jsonArray3 = json.getJSONArray("stage3list");
@@ -128,25 +128,25 @@ public class FormTransfer implements java.io.Serializable {
 			                result3.add(stageTemp);
 				        }
 				            
-				            startform.setStage3list(result); 	            
+				            startform.setStage3list(result3); 	            
 		            	            
 //-------------------------------------------stage4list	            
 				    
-				    JSONArray jsonArray = json.getJSONArray("stage3list");
-					JSONObject tempCSlist  = new JSONObject(parameter);
-					List<stage1> result = new ArrayList<stage1>();
+				    JSONArray jsonArray4 = json.getJSONArray("stage4list");
+					JSONObject tempCSlist4  = new JSONObject(parameter);
+					List<stage4> result4 = new ArrayList<stage4>();
 
 						for (int i = 0; i < jsonArray.length(); i++) {
 
 							stage1 stageTemp = new stage1();
 //					        stageTemp.setSigner(jsonArray.getString(i)) ;
-					        tempCSlist=new JSONObject(jsonArray.getString(i));
-					        stageTemp.setStage4(tempCSlist.getString("stage4"));
+					        tempCSlist4=new JSONObject(jsonArray4.getString(i));
+					        stageTemp.setStage4(tempCSlist4.getString("stage4"));
 //					        System.out.println(stageTemp.getSigner());
 					        result.add(stageTemp);
 						}
 						            
-							startform.setStage1list(result); 	
+							startform.setStage4list(result4); 	
 
 	            
 			return startform;
