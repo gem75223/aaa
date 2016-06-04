@@ -25,7 +25,7 @@ public class FormTransfer implements java.io.Serializable {
     public FormTransfer() {
     }
 
-public static it03Form formTransfer(String parameter ) throws Exception {
+public static form formTransfer(String parameter ) throws Exception {
 		
 
 			form startform =new form();
@@ -56,7 +56,7 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 			startform.setStage9(json.getString("stage9"));
 			startform.setStage10(json.getString("stage10"));
 			startform.setStage11(json.getString("stage11"));	
-			startform.setStage12(json.getString("stage12"));
+			
 			startform.setStage13(json.getString("stage13"));
 			startform.setStage14(json.getString("stage14"));
 //			startform.setFirstStage(json.getString("firstStage"));
