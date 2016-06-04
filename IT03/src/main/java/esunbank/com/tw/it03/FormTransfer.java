@@ -138,12 +138,12 @@ public class FormTransfer implements java.io.Serializable {
 
 						for (int i = 0; i < jsonArray.length(); i++) {
 
-							stage1 stageTemp = new stage1();
+							stage4 stageTemp = new stage4();
 //					        stageTemp.setSigner(jsonArray.getString(i)) ;
 					        tempCSlist4=new JSONObject(jsonArray4.getString(i));
 					        stageTemp.setStage4(tempCSlist4.getString("stage4"));
 //					        System.out.println(stageTemp.getSigner());
-					        result.add(stageTemp);
+					        result4.add(stageTemp);
 						}
 						            
 							startform.setStage4list(result4); 	
