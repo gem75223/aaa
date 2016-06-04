@@ -95,14 +95,7 @@
             <bpmn2:dataOutputRefs>_A051CA35-4360-4B7B-80D9-30BD7EE82C13_sub0302OutputX</bpmn2:dataOutputRefs>
           </bpmn2:outputSet>
         </bpmn2:ioSpecification>
-        <bpmn2:dataInputAssociation id="_OOHTgiohEea4y-NOufcesg">
-          <bpmn2:sourceRef>FormTo</bpmn2:sourceRef>
-          <bpmn2:targetRef>_A051CA35-4360-4B7B-80D9-30BD7EE82C13_sub0302InputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_OOHTgyohEea4y-NOufcesg">
-          <bpmn2:sourceRef>_A051CA35-4360-4B7B-80D9-30BD7EE82C13_sub0302OutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>FormTo</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
+
       </bpmn2:callActivity>
       <bpmn2:endEvent id="_7FA960BA-010B-4775-8140-11C3FDF7E2DB" drools:bgcolor="#ff6347" drools:selectable="true" name="">
         <bpmn2:incoming>_5BFC62C0-7445-4577-A3F8-B6A4054AD142</bpmn2:incoming>
