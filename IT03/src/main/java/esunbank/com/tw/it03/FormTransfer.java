@@ -74,7 +74,7 @@ public static form formTransfer(String parameter ) throws Exception {
 	            	stage1 stageTemp = new stage1();
 //	                 stageTemp.setSigner(jsonArray.getString(i)) ;
 	            	tempCSlist=new JSONObject(jsonArray.getString(i));
-	                 stageTemp.User(tempCSlist.getString("user"));
+	                 stageTemp.user(tempCSlist.getString("user"));
 	           
 //	                 System.out.println(stageTemp.getSigner());
 	                 
