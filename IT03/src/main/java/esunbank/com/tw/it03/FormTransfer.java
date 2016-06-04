@@ -77,21 +77,21 @@ public class FormTransfer implements java.io.Serializable {
 	                result.add(stageTemp);
 	            }
 	            
-	            startform.setStage1list(result);  
+	            startform.setStagelist(result);  
 //-------------------------------------------stage1list
 	            
 	            JSONArray jsonArray1 = json.getJSONArray("stage1list");
 		    	 JSONObject tempCSlist1  = new JSONObject(parameter);
-				 List<stage1> result = new ArrayList<stage1>();
+				 List<stage1> result1 = new ArrayList<stage1>();
 
 		            for (int i = 0; i < jsonArray1.length(); i++) {
 		    
 		            	stage1 stageTemp = new stage1();
 //		                stageTemp.setSigner(jsonArray.getString(i)) ;
-		            	tempCSlist1=new JSONObject(jsonArray.getString(i));
+		            	tempCSlist1=new JSONObject(jsonArray1.getString(i));
 		                stageTemp.setUser(tempCSlist1.getString("user"));
 //		                System.out.println(stageTemp.getSigner());
-		                result.add(stageTemp);
+		                result1.add(stageTemp);
 		            }
 		            
 		            startform.setStage1list(result);     
@@ -99,36 +99,36 @@ public class FormTransfer implements java.io.Serializable {
 	            
 		            JSONArray jsonArray2 = json.getJSONArray("stage2list");
 			    	JSONObject tempCSlist2  = new JSONObject(parameter);
-					List<stage2> result = new ArrayList<stage2>();
+					List<stage2> result2 = new ArrayList<stage2>();
 
 			            for (int i = 0; i < jsonArray.length(); i++) {
 			    
 			            	stage2 stageTemp = new stage2();
 //			                stageTemp.setSigner(jsonArray.getString(i)) ;
-			            	tempCSlist=new JSONObject(jsonArray.getString(i));
+			            	tempCSlist=new JSONObject(jsonArray2.getString(i));
 			                stageTemp.setStage2(tempCSlist.getString("stage2"));
 //			                System.out.println(stageTemp.getSigner());
-			                result.add(stageTemp);
+			                result2.add(stageTemp);
 			            }
 			            
-			            startform.setStage1list(result); 	            
+			            startform.setStage2list(result); 	            
 //-------------------------------------------stage3list	            
 			            
-			        JSONArray jsonArray = json.getJSONArray("stage3list");
-				    JSONObject tempCSlist  = new JSONObject(parameter);
-					List<stage1> result = new ArrayList<stage1>();
+			        JSONArray jsonArray3 = json.getJSONArray("stage3list");
+				    JSONObject tempCSlist3  = new JSONObject(parameter);
+					List<stage3> result3 = new ArrayList<stage3>();
 
 				    	for (int i = 0; i < jsonArray.length(); i++) {
 
-			            	stage1 stageTemp = new stage1();
+			            	stage3 stageTemp = new stage3();
 //			                stageTemp.setSigner(jsonArray.getString(i)) ;
-			            	tempCSlist=new JSONObject(jsonArray.getString(i));
-			                stageTemp.setStage3(tempCSlist.getString("stage3"));
+			            	tempCSlist3=new JSONObject(jsonArray3.getString(i));
+			                stageTemp.setStage3(tempCSlist3.getString("stage3"));
 //			                System.out.println(stageTemp.getSigner());
-			                result.add(stageTemp);
+			                result3.add(stageTemp);
 				        }
 				            
-				            startform.setStage1list(result); 	            
+				            startform.setStage3list(result); 	            
 		            	            
 //-------------------------------------------stage4list	            
 				    
