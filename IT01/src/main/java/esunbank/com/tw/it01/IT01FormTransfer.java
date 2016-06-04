@@ -16,6 +16,10 @@ public class IT01FormTransfer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	public IT01FormTransfer() {
+
+	}
+
 	public static form formTransfer(String parameter) throws Exception {
 
 		form startform = new form();
@@ -32,10 +36,10 @@ public class IT01FormTransfer implements java.io.Serializable {
 		startform.setStage3(json.getString("stage3"));
 		startform.setStage4(json.getString("stage4"));
 
-		// JSONArray jsonArray = json.getJSONArray("stage1list"); ?|????list??
+		// JSONArray jsonArray = json.getJSONArray("stage1list"); 會簽讀取list用
 
 		/*
-		 * ?s??json?}?C????k JSONObject tempCSlist = new JSONObject(parameter);
+		 * 存取json陣列的方法 JSONObject tempCSlist = new JSONObject(parameter);
 		 * List<stage1> result = new ArrayList<stage1>();
 		 * 
 		 * 
@@ -58,8 +62,5 @@ public class IT01FormTransfer implements java.io.Serializable {
 
 		return startform;
 
-	}
-
-	public IT01FormTransfer() {
 	}
 }
