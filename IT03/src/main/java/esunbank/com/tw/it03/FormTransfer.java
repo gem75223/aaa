@@ -27,27 +27,33 @@ public static it03Form formTransfer(String parameter ) throws Exception {
 			JSONObject json  = new JSONObject(parameter);
 			
 			startform.setAssign(json.getString("assign"));
-			startform.setSend(json.getString("send"));
 			startform.setChange(json.getString("change"));
-			startform.setReject(json.getString("reject"));
 			startform.setComplete(json.getString("complete"));
+			startform.setHostsr(json.getString("send"));
 			startform.setIscitrix(json.getString("iscitrix"));
+			startform.setIsgeneral(json.getString("assignOrgPicker"));
 			startform.setIsmgr(json.getString("ismgr"));
-			startform.setCdept(json.getString("cdept"));
-			startform.setAssignOrgPicker(json.getString("assignOrgPicker"));
-			startform.setCancelCompleted(json.getString("cancelCompleted"));
+			startform.setIsthesame(json.getString("cancelCompleted"));
+
+			startform.setOthermgr(json.getString("send"));
+			startform.setReject(json.getString("reject"));
+			startform.setReply(json.getString("cdept"));
+			startform.setSend(json.getString("send"));
+			
+			startform.setStage1(json.getString("stage2"));
 			startform.setStage2(json.getString("stage2"));
 			startform.setStage3(json.getString("stage3"));
 			startform.setStage4(json.getString("stage4"));
 			startform.setStage5(json.getString("stage5"));
 			startform.setStage6(json.getString("stage6"));
 			startform.setStage7(json.getString("stage7"));
-			startform.setApplicant(json.getString("applicant"));
-
-					
-			
-			
-			
+			startform.setStage5(json.getString("stage8"));
+			startform.setStage6(json.getString("stage9"));
+			startform.setStage7(json.getString("stage10"));
+			startform.setStage7(json.getString("stage11"));	
+			startform.setStage7(json.getString("stage12"));
+			startform.setStage7(json.getString("stage13"));
+			startform.setStage7(json.getString("stage14"));
 //			startform.setFirstStage(json.getString("firstStage"));
 
 //////-------------------------
