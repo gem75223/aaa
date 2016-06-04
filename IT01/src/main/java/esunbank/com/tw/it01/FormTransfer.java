@@ -16,7 +16,7 @@ public class IT01FormTransfer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	public FormTransfer() {
+	public IT01FormTransfer() {
 
 	}
 
