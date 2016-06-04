@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>IT01</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.syntrontech.bpm</groupId>
+      <artifactId>EsunCommonModels</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
