@@ -595,14 +595,7 @@
           <bpmn2:dataOutputRefs>_72930AB6-9ADB-433C-A175-FCF2C610994B_sub03OutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_I0v38iogEea4y-NOufcesg">
-        <bpmn2:sourceRef>FormTo</bpmn2:sourceRef>
-        <bpmn2:targetRef>_72930AB6-9ADB-433C-A175-FCF2C610994B_sub03InputX</bpmn2:targetRef>
-      </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_I0v38yogEea4y-NOufcesg">
-        <bpmn2:sourceRef>_72930AB6-9ADB-433C-A175-FCF2C610994B_sub03OutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>FormTo</bpmn2:targetRef>
-      </bpmn2:dataOutputAssociation>
+
     </bpmn2:callActivity>
     <bpmn2:sequenceFlow id="_D44C0EBD-A77B-4EFE-BADE-CC60EEDE0CDC" drools:bgcolor="#000000" drools:selectable="true" sourceRef="_286A7993-B440-4793-B0F0-A5154AD7F561" targetRef="_72930AB6-9ADB-433C-A175-FCF2C610994B"/>
     <bpmn2:sequenceFlow id="_E425FBAD-0C31-4CDB-9DC8-17030B2A40D9" drools:bgcolor="#000000" drools:selectable="true" sourceRef="_72930AB6-9ADB-433C-A175-FCF2C610994B" targetRef="_9DCD195C-159F-4236-8E3A-01DCB17EE044"/>
